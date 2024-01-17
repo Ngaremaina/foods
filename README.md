@@ -49,14 +49,17 @@ Before you begin, make sure you have the following prerequisites installed:
    cd ..
    ```
 5. Activate the virtual environment:
+
     ```bash
     source venv/bin/activate
    ```
 6. Install the requirements:
+
    ```bash
    pip install -r requirements.txt
    ```
 7. Start the application:
+
    ```bash
    honcho start -f Procfile.dev
    ```
