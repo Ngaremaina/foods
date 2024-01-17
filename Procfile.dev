@@ -1,0 +1,2 @@
+client: PORT=3000 npm start --prefix frontend
+server: python ./backend/manage.py runserver
