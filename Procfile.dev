@@ -1,2 +1,2 @@
 client: PORT=3000 npm start --prefix frontend
-server: python3 ./backend/manage.py runserver
+server: gunicorn --chdir backend backend.wsgi
