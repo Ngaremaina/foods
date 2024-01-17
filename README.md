@@ -82,4 +82,4 @@ Before you begin, make sure you have the following prerequisites installed:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache License](LICENSE).
