@@ -7,17 +7,21 @@ export default function SignUp(){
         <div className="flex">
 
                 <div className="w-1/2">
-                    <Image src="https://flowbite.com/docs/images/logo.svg" alt="food" width={100} height={100}/>
+                    <Image src="/assets/images/vegetables.jpg" alt="food" width={1000} height={300}/>
 
                 </div>
-                <div className="w-1/2 pt-10 pl-10">
+                <div className="w-1/2 pt-1 pl-10">
 
                     <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                     <form className="space-y-6" action="#">
                         <h5 className="text-xl font-medium text-gray-900 dark:text-white text-center">Sign up to our platform</h5>
                         <div>
+                        <label htmlFor="username" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your username</label>
+                        <input type="text" name="username" id="username" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="johndoe" required />
+                        </div>
+                        <div>
                         <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
-                        <input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required />
+                        <input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="johndoe@example.com" required />
                         </div>
                         <div>
                         <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>

@@ -11,10 +11,15 @@ import { useState } from "react"
 const Nav = () => {
     const [className, setClassName] = useState(false)
     const [nav,setNav] = useState(false)
+    const [menu,setMenu] = useState(false)
 
     function handleNav(){
         setNav(!nav)
         setClassName(!className)
+    }
+
+    function handleMenu(){
+        setMenu(!menu)
     }
     return(
         <nav className="bg-white border-gray-200 dark:bg-gray-900 ">
