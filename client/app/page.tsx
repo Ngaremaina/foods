@@ -7,7 +7,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetching = async () => {
-      const response = await fetch("")
+      const response = await fetch("http://127.0.0.1:8000/foodApp/products/")
       const data = await response.json()
       return setProducts(data)
     }
